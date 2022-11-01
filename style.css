@@ -1,0 +1,19 @@
+.menu{
+    text-align: center;
+    font-size: 25px;
+    color: teal;
+    margin-top: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.tb{
+    background-color: aqua;
+    border: 2px solid rgb(221, 108, 15);
+    margin-top: 30px ;
+    margin-left: 450px;
+    text-align: center;
+}
+.cell{
+    width: 80px;
+    height: 80px;
+    border: 2px solid tomato;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mine Game</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="mineBulid()">
+    <div class="head">
+        <div class="menu">
+            Mine Game
+        </div>
+    </div>
+    <div class="body">
+        <table class="tb">
+            <tr>
+                <td class="cell" id="11" onmouseup="press(this)"></td>
+                <td class="cell" id="12" onmouseup="press(this)"></td>
+                <td class="cell" id="13" onmouseup="press(this)"></td>
+                <td class="cell" id="14" onmouseup="press(this)"></td>
+                <td class="cell" id="15" onmouseup="press(this)"></td>
+                <td class="cell" id="16" onmouseup="press(this)"></td>
+            </tr>
+            <tr>
+                <td class="cell" id="21" onmouseup="press(this)"></td>
+                <td class="cell" id="22" onmouseup="press(this)"></td>
+                <td class="cell" id="23" onmouseup="press(this)"></td>
+                <td class="cell" id="24" onmouseup="press(this)"></td>
+                <td class="cell" id="25" onmouseup="press(this)"></td>
+                <td class="cell" id="26" onmouseup="press(this)"></td>
+            </tr>
+            <tr>
+                <td class="cell" id="31" onmouseup="press(this)"></td>
+                <td class="cell" id="32" onmouseup="press(this)"></td>
+                <td class="cell" id="33" onmouseup="press(this)"></td>
+                <td class="cell" id="34" onmouseup="press(this)"></td>
+                <td class="cell" id="35" onmouseup="press(this)"></td>
+                <td class="cell" id="36" onmouseup="press(this)"></td>
+            </tr>
+            <tr>
+                <td class="cell" id="41" onmouseup="press(this)"></td>
+                <td class="cell" id="42" onmouseup="press(this)"></td>
+                <td class="cell" id="43" onmouseup="press(this)"></td>
+                <td class="cell" id="44" onmouseup="press(this)"></td>
+                <td class="cell" id="45" onmouseup="press(this)"></td>
+                <td class="cell" id="46" onmouseup="press(this)"></td>
+            </tr>
+            <tr>
+                <td class="cell" id="51" onmouseup="press(this)"></td>
+                <td class="cell" id="52" onmouseup="press(this)"></td>
+                <td class="cell" id="53" onmouseup="press(this)"></td>
+                <td class="cell" id="54" onmouseup="press(this)"></td>
+                <td class="cell" id="55" onmouseup="press(this)"></td>
+                <td class="cell" id="56" onmouseup="press(this)"></td>
+            </tr>
+            <tr>
+                <td class="cell" id="61" onmouseup="press(this)"></td>
+                <td class="cell" id="62" onmouseup="press(this)"></td>
+                <td class="cell" id="63" onmouseup="press(this)"></td>
+                <td class="cell" id="64" onmouseup="press(this)"></td>
+                <td class="cell" id="65" onmouseup="press(this)"></td>
+                <td class="cell" id="66" onmouseup="press(this)"></td>
+            </tr>
+        </table>
+    </div>
+    <audio id="clickvoice" src="btnclick.mp3"></audio>
+    <audio id="gameover" src="gameover.mp3"></audio>
+</body>
+</html>
